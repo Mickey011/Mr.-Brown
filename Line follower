@@ -1,0 +1,18 @@
+To make a Line follower robot we first have to understand small things in robotics.
+Download Arduino IDE that programs Arduino.
+To make the code you type in your laptop physically work we use Arduino Uno(micro controller) we upload the code in Arduino and it does as specified in the code.(Check your connections very carefully because if anything is wrong even arduino can blow up)
+Materials that we need:-
+                        Arduino Uno
+                        Chasis 
+                        IR sensors(minimum 2)
+                        Jumper wires
+                        Bread Board
+                        Motors
+                        Wheels
+                        Battery
+                        L293D(motor driver)
+                        LM7805(voltage regulator
+Some theory:-
+              Basic principle is that IR sensors have to leds(black and white) white transmits and black absorbs also there is a potentiometer on the module that is used to adjust the senetivity of the device. After setting the sensitivity when we switch the module on black led receives signal and it measures it if the signal is greater than the threshold then sensor value is 1(which essentially means that there is a white surface below the sensor). By using this we can program the motor driver to drive accordingly.
+              L293D:- It is a motor driver, motors run at 12v but aduino runs at 5v so arduino directly can't control motors therefore there is an intermediate that powers the motors and reads the arduino signals.
+              LM7805:- It is a voltage regulator. It converts upto 30v to 5v.

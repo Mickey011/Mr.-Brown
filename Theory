@@ -16,3 +16,4 @@ Some theory:-
               Basic principle is that IR sensors have to leds(black and white) white transmits and black absorbs also there is a potentiometer on the module that is used to adjust the senetivity of the device. After setting the sensitivity when we switch the module on black led receives signal and it measures it if the signal is greater than the threshold then sensor value is 1(which essentially means that there is a white surface below the sensor). By using this we can program the motor driver to drive accordingly.
               L293D:- It is a motor driver, motors run at 12v but aduino runs at 5v so arduino directly can't control motors therefore there is an intermediate that powers the motors and reads the arduino signals.
               LM7805:- It is a voltage regulator. It converts upto 30v to 5v.
+              
